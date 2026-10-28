@@ -1,0 +1,32 @@
+{
+  "dataset_count": 20,
+  "tts_count": 2,
+  "dataset_accuracy": 0.9,
+  "confusion_matrix": {
+    "Bat_Den": {
+      "Bat_Den": 0,
+      "Tap_Am": 0,
+      "Tat_Den": 0,
+      "Unknown": 0
+    },
+    "Tap_Am": {
+      "Bat_Den": 0,
+      "Tap_Am": 0,
+      "Tat_Den": 0,
+      "Unknown": 0
+    },
+    "Tat_Den": {
+      "Bat_Den": 2,
+      "Tap_Am": 0,
+      "Tat_Den": 18,
+      "Unknown": 0
+    },
+    "Unknown": {
+      "Bat_Den": 0,
+      "Tap_Am": 0,
+      "Tat_Den": 0,
+      "Unknown": 0
+    }
+  },
+  "tat_den_to_bat_den": 0.1
+}

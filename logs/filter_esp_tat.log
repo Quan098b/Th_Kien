@@ -1,0 +1,11 @@
+HOST file=test_audio\tat_den.wav samples=24000 bytes=48000 crc=f7a313a4
+TEST_HEADER protocol=EIP1 samples=24000 bytes=48000 expected_crc=f7a313a4 actual_crc=f7a313a4 valid=yes
+AUDIO source=SERIAL rms=4310.38 pcm_min=-32468 pcm_max=26701 clipped=0/24000
+FILTER source=SERIAL pass=yes active_ratio=0.302013 flatness=0.065638 low_ratio=0.200973 zcr=0.024751 thresholds=rms>=20.0,active>=0.02,flat<=0.15,low<=0.80,zcr>=0.01
+PROB source=SERIAL Bat_Den=0.554688
+PROB source=SERIAL Tap_Am=0.000000
+PROB source=SERIAL Tat_Den=0.003906
+PROB source=SERIAL Unknown=0.437500
+RESULT source=SERIAL best=Bat_Den probability=0.554688 second=Unknown margin=0.117188 dsp_ms=192 inference_ms=19 anomaly_ms=0
+DECISION source=SERIAL final=Bat_Den model=Bat_Den reason=voice_gate_pass
+TEST_END

@@ -1,0 +1,11 @@
+HOST file=test_audio\noise_rms_300.wav samples=24000 bytes=48000 crc=18d28b05
+TEST_HEADER protocol=EIP1 samples=24000 bytes=48000 expected_crc=18d28b05 actual_crc=18d28b05 valid=yes
+AUDIO source=SERIAL rms=299.90 pcm_min=-1119 pcm_max=1239 clipped=0/24000
+FILTER source=SERIAL pass=no active_ratio=0.000000 flatness=0.996001 low_ratio=0.016720 zcr=0.501896 thresholds=rms>=20.0,active>=0.02,flat<=0.15,low<=0.80,zcr>=0.01
+PROB source=SERIAL Bat_Den=0.027344
+PROB source=SERIAL Tap_Am=0.003906
+PROB source=SERIAL Tat_Den=0.066406
+PROB source=SERIAL Unknown=0.906250
+RESULT source=SERIAL best=Unknown probability=0.906250 second=Tat_Den margin=0.839844 dsp_ms=195 inference_ms=19 anomaly_ms=0
+DECISION source=SERIAL final=REJECT model=Unknown reason=voice_gate_reject
+TEST_END

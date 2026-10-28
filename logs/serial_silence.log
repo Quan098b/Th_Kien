@@ -1,0 +1,9 @@
+HOST file=test_audio\silence.wav samples=24000 bytes=48000 crc=0aa99847
+TEST_HEADER protocol=EIP1 samples=24000 bytes=48000 expected_crc=0aa99847 actual_crc=0aa99847 valid=yes
+AUDIO source=SERIAL rms=0.00 pcm_min=0 pcm_max=0 clipped=0/24000
+PROB source=SERIAL Bat_Den=0.496094
+PROB source=SERIAL Tap_Am=0.000000
+PROB source=SERIAL Tat_Den=0.496094
+PROB source=SERIAL Unknown=0.007812
+RESULT source=SERIAL best=Bat_Den probability=0.496094 second=Tat_Den margin=0.000000 dsp_ms=190 inference_ms=12 anomaly_ms=0
+TEST_END

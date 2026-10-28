@@ -1,0 +1,38 @@
+{
+  "seed": 20261022,
+  "threshold": {
+    "rms": 20,
+    "active_ratio": 0.02,
+    "flatness_max": 0.15,
+    "low_ratio_max": 0.8,
+    "zcr_min": 0.01
+  },
+  "dev_baseline": {
+    "positives": 30,
+    "negatives": 30,
+    "far": 0.9333333333333333,
+    "frr": 0.03333333333333333,
+    "gate_reject_positive": 0.0
+  },
+  "dev_filtered": {
+    "positives": 30,
+    "negatives": 30,
+    "far": 0.3,
+    "frr": 0.03333333333333333,
+    "gate_reject_positive": 0.0
+  },
+  "test_baseline": {
+    "positives": 30,
+    "negatives": 30,
+    "far": 0.6,
+    "frr": 0.03333333333333333,
+    "gate_reject_positive": 0.0
+  },
+  "test_filtered": {
+    "positives": 30,
+    "negatives": 30,
+    "far": 0.3,
+    "frr": 0.03333333333333333,
+    "gate_reject_positive": 0.0
+  }
+}

@@ -1,0 +1,5 @@
+﻿label,local_wav_count,speaker_ids_known,session_ids_explicit,usable_for_speaker_disjoint_split
+Bat_Den,0,0,0,no
+Tat_Den,250,0,0,no
+Tap_Am,0,0,0,no
+Unknown,0,0,0,no

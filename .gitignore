@@ -1,0 +1,32 @@
+.pio
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+
+# Secrets
+include/wifi_secrets.h
+
+# Local-only: environments, audio, binaries, large or derived data
+.codex/
+.venv*/
+**/.venv*/
+__pycache__/
+*.pyc
+*.wav
+*.bin
+*.o
+*.exe
+test_audio/
+firmware_history/
+filter_evaluation/audio/
+hard_negative_analysis/mfe_vectors.csv
+laptop_model_test/reference/
+laptop_model_test/sdk/*
+!laptop_model_test/sdk/source/
+!laptop_model_test/sdk/Makefile
+!laptop_model_test/sdk/CMakeLists.txt
+!laptop_model_test/sdk/README.txt
+training_experiments/*/work/
+training_experiments/*/models/
+training_experiments/*/data/

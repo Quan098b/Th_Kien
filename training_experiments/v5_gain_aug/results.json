@@ -1,0 +1,309 @@
+{
+ "deployment4_ext": {
+  "all": {
+   "FAR": "18/60",
+   "FRR": "1/30",
+   "FA_noncommand_speech": "18/20"
+  },
+  "test": {
+   "FAR": "9/30",
+   "FRR": "0/13",
+   "FA_noncommand_speech": "9/10"
+  }
+ },
+ "plain_seed1": {
+  "val_acc": 0.9726,
+  "epochs": 22,
+  "test_orig": 0.975,
+  "test_rms200": 0.31,
+  "test_rms200n": 0.31,
+  "test_rms4500": 0.73,
+  "ext_float_all": {
+   "FAR": "20/60",
+   "FRR": "0/30",
+   "FA_noncommand_speech": "20/20"
+  },
+  "ext_float_test": {
+   "FAR": "10/30",
+   "FRR": "0/13",
+   "FA_noncommand_speech": "10/10"
+  },
+  "ext_int8_all": {
+   "FAR": "20/60",
+   "FRR": "0/30",
+   "FA_noncommand_speech": "20/20"
+  },
+  "test_rms200n_int8": 0.31,
+  "test_rms200n_int8_confusion": {
+   "Bat_Den->Tat_Den": 54,
+   "Tap_Am->Bat_Den": 2,
+   "Tap_Am->Tap_Am": 12,
+   "Tap_Am->Tat_Den": 25,
+   "Tat_Den->Tat_Den": 50,
+   "Unknown->Bat_Den": 12,
+   "Unknown->Tat_Den": 45
+  },
+  "ext_int8_by_group": {
+   "Bat_Den_tts_augmented->Bat_Den": 20,
+   "Tat_Den_real->Tat_Den": 10,
+   "background_colored->Tat_Den": 9,
+   "background_colored->Unknown": 1,
+   "background_white->Tat_Den": 3,
+   "background_white->Unknown": 7,
+   "hum->Bat_Den": 1,
+   "hum->Tat_Den": 5,
+   "hum->Unknown": 4,
+   "non_command_speech->Bat_Den": 20,
+   "wind->Tat_Den": 7,
+   "wind->Unknown": 3
+  }
+ },
+ "plain_seed2": {
+  "val_acc": 0.9726,
+  "epochs": 24,
+  "test_orig": 0.98,
+  "test_rms200": 0.335,
+  "test_rms200n": 0.335,
+  "test_rms4500": 0.73,
+  "ext_float_all": {
+   "FAR": "20/60",
+   "FRR": "0/30",
+   "FA_noncommand_speech": "20/20"
+  },
+  "ext_float_test": {
+   "FAR": "10/30",
+   "FRR": "0/13",
+   "FA_noncommand_speech": "10/10"
+  },
+  "ext_int8_all": {
+   "FAR": "20/60",
+   "FRR": "0/30",
+   "FA_noncommand_speech": "20/20"
+  },
+  "test_rms200n_int8": 0.335,
+  "test_rms200n_int8_confusion": {
+   "Bat_Den->Tat_Den": 54,
+   "Tap_Am->Bat_Den": 1,
+   "Tap_Am->Tap_Am": 14,
+   "Tap_Am->Tat_Den": 24,
+   "Tat_Den->Tat_Den": 50,
+   "Unknown->Bat_Den": 29,
+   "Unknown->Tat_Den": 25,
+   "Unknown->Unknown": 3
+  },
+  "ext_int8_by_group": {
+   "Bat_Den_tts_augmented->Bat_Den": 20,
+   "Tat_Den_real->Tat_Den": 10,
+   "background_colored->Tat_Den": 9,
+   "background_colored->Unknown": 1,
+   "background_white->Bat_Den": 1,
+   "background_white->Tat_Den": 2,
+   "background_white->Unknown": 7,
+   "hum->Bat_Den": 1,
+   "hum->Tat_Den": 4,
+   "hum->Unknown": 5,
+   "non_command_speech->Bat_Den": 20,
+   "wind->Bat_Den": 1,
+   "wind->Tat_Den": 6,
+   "wind->Unknown": 3
+  }
+ },
+ "plain_seed3": {
+  "val_acc": 0.9795,
+  "epochs": 54,
+  "test_orig": 0.975,
+  "test_rms200": 0.37,
+  "test_rms200n": 0.365,
+  "test_rms4500": 0.735,
+  "ext_float_all": {
+   "FAR": "16/60",
+   "FRR": "4/30",
+   "FA_noncommand_speech": "16/20"
+  },
+  "ext_float_test": {
+   "FAR": "9/30",
+   "FRR": "0/13",
+   "FA_noncommand_speech": "9/10"
+  },
+  "ext_int8_all": {
+   "FAR": "16/60",
+   "FRR": "3/30",
+   "FA_noncommand_speech": "16/20"
+  },
+  "test_rms200n_int8": 0.365,
+  "test_rms200n_int8_confusion": {
+   "Bat_Den->Tat_Den": 54,
+   "Tap_Am->Bat_Den": 1,
+   "Tap_Am->Tap_Am": 14,
+   "Tap_Am->Tat_Den": 24,
+   "Tat_Den->Tat_Den": 50,
+   "Unknown->Bat_Den": 4,
+   "Unknown->Tat_Den": 44,
+   "Unknown->Unknown": 9
+  },
+  "ext_int8_by_group": {
+   "Bat_Den_tts_augmented->Bat_Den": 17,
+   "Bat_Den_tts_augmented->Tat_Den": 3,
+   "Tat_Den_real->Tat_Den": 10,
+   "background_colored->Tap_Am": 1,
+   "background_colored->Tat_Den": 8,
+   "background_colored->Unknown": 1,
+   "background_white->Tat_Den": 7,
+   "background_white->Unknown": 3,
+   "hum->Tat_Den": 9,
+   "hum->Unknown": 1,
+   "non_command_speech->Bat_Den": 16,
+   "non_command_speech->Unknown": 4,
+   "wind->Bat_Den": 2,
+   "wind->Tat_Den": 6,
+   "wind->Unknown": 2
+  }
+ },
+ "aug_seed1": {
+  "val_acc": 0.9795,
+  "epochs": 33,
+  "test_orig": 0.995,
+  "test_rms200": 0.97,
+  "test_rms200n": 0.97,
+  "test_rms4500": 0.98,
+  "ext_float_all": {
+   "FAR": "16/60",
+   "FRR": "0/30",
+   "FA_noncommand_speech": "15/20"
+  },
+  "ext_float_test": {
+   "FAR": "8/30",
+   "FRR": "0/13",
+   "FA_noncommand_speech": "7/10"
+  },
+  "ext_int8_all": {
+   "FAR": "17/60",
+   "FRR": "0/30",
+   "FA_noncommand_speech": "16/20"
+  },
+  "test_rms200n_int8": 0.975,
+  "test_rms200n_int8_confusion": {
+   "Bat_Den->Bat_Den": 51,
+   "Bat_Den->Tat_Den": 3,
+   "Tap_Am->Tap_Am": 38,
+   "Tap_Am->Unknown": 1,
+   "Tat_Den->Tat_Den": 49,
+   "Tat_Den->Unknown": 1,
+   "Unknown->Unknown": 57
+  },
+  "ext_int8_by_group": {
+   "Bat_Den_tts_augmented->Bat_Den": 20,
+   "Tat_Den_real->Tat_Den": 10,
+   "background_colored->Tap_Am": 2,
+   "background_colored->Tat_Den": 8,
+   "background_white->Tat_Den": 2,
+   "background_white->Unknown": 8,
+   "hum->Tat_Den": 6,
+   "hum->Unknown": 4,
+   "non_command_speech->Bat_Den": 8,
+   "non_command_speech->Tat_Den": 8,
+   "non_command_speech->Unknown": 4,
+   "wind->Bat_Den": 1,
+   "wind->Tat_Den": 9
+  }
+ },
+ "aug_seed2": {
+  "val_acc": 0.9795,
+  "epochs": 36,
+  "test_orig": 0.965,
+  "test_rms200": 0.96,
+  "test_rms200n": 0.96,
+  "test_rms4500": 0.955,
+  "ext_float_all": {
+   "FAR": "18/60",
+   "FRR": "19/30",
+   "FA_noncommand_speech": "18/20"
+  },
+  "ext_float_test": {
+   "FAR": "9/30",
+   "FRR": "9/13",
+   "FA_noncommand_speech": "9/10"
+  },
+  "ext_int8_all": {
+   "FAR": "19/60",
+   "FRR": "17/30",
+   "FA_noncommand_speech": "19/20"
+  },
+  "test_rms200n_int8": 0.96,
+  "test_rms200n_int8_confusion": {
+   "Bat_Den->Bat_Den": 53,
+   "Bat_Den->Tat_Den": 1,
+   "Tap_Am->Bat_Den": 1,
+   "Tap_Am->Tap_Am": 36,
+   "Tap_Am->Unknown": 2,
+   "Tat_Den->Bat_Den": 3,
+   "Tat_Den->Tat_Den": 47,
+   "Unknown->Tap_Am": 1,
+   "Unknown->Unknown": 56
+  },
+  "ext_int8_by_group": {
+   "Bat_Den_tts_augmented->Bat_Den": 3,
+   "Bat_Den_tts_augmented->Tat_Den": 17,
+   "Tat_Den_real->Tat_Den": 10,
+   "background_colored->Tap_Am": 4,
+   "background_colored->Tat_Den": 6,
+   "background_white->Tat_Den": 2,
+   "background_white->Unknown": 8,
+   "hum->Tat_Den": 10,
+   "non_command_speech->Bat_Den": 18,
+   "non_command_speech->Tat_Den": 1,
+   "non_command_speech->Unknown": 1,
+   "wind->Tat_Den": 10
+  }
+ },
+ "aug_seed3": {
+  "val_acc": 0.9726,
+  "epochs": 20,
+  "test_orig": 0.975,
+  "test_rms200": 0.965,
+  "test_rms200n": 0.965,
+  "test_rms4500": 0.945,
+  "ext_float_all": {
+   "FAR": "12/60",
+   "FRR": "1/30",
+   "FA_noncommand_speech": "11/20"
+  },
+  "ext_float_test": {
+   "FAR": "8/30",
+   "FRR": "1/13",
+   "FA_noncommand_speech": "7/10"
+  },
+  "ext_int8_all": {
+   "FAR": "13/60",
+   "FRR": "0/30",
+   "FA_noncommand_speech": "12/20"
+  },
+  "test_rms200n_int8": 0.965,
+  "test_rms200n_int8_confusion": {
+   "Bat_Den->Bat_Den": 51,
+   "Bat_Den->Tat_Den": 2,
+   "Bat_Den->Unknown": 1,
+   "Tap_Am->Bat_Den": 1,
+   "Tap_Am->Tap_Am": 38,
+   "Tat_Den->Bat_Den": 1,
+   "Tat_Den->Tat_Den": 49,
+   "Unknown->Tap_Am": 1,
+   "Unknown->Tat_Den": 1,
+   "Unknown->Unknown": 55
+  },
+  "ext_int8_by_group": {
+   "Bat_Den_tts_augmented->Bat_Den": 20,
+   "Tat_Den_real->Tat_Den": 10,
+   "background_colored->Tat_Den": 10,
+   "background_white->Tat_Den": 2,
+   "background_white->Unknown": 8,
+   "hum->Tat_Den": 5,
+   "hum->Unknown": 5,
+   "non_command_speech->Bat_Den": 9,
+   "non_command_speech->Tat_Den": 3,
+   "non_command_speech->Unknown": 8,
+   "wind->Bat_Den": 1,
+   "wind->Tat_Den": 9
+  }
+ }
+}

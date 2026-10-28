@@ -1,0 +1,9 @@
+HOST file=test_audio\noise_rms_300.wav samples=24000 bytes=48000 crc=18d28b05
+TEST_HEADER protocol=EIP1 samples=24000 bytes=48000 expected_crc=18d28b05 actual_crc=18d28b05 valid=yes
+AUDIO source=SERIAL rms=299.90 pcm_min=-1119 pcm_max=1239 clipped=0/24000
+PROB source=SERIAL Bat_Den=0.500000
+PROB source=SERIAL Tap_Am=0.000000
+PROB source=SERIAL Tat_Den=0.500000
+PROB source=SERIAL Unknown=0.000000
+RESULT source=SERIAL best=Bat_Den probability=0.500000 second=Tat_Den margin=0.000000 dsp_ms=194 inference_ms=12 anomaly_ms=0
+TEST_END

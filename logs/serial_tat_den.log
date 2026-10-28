@@ -1,0 +1,9 @@
+HOST file=test_audio\tat_den.wav samples=24000 bytes=48000 crc=f7a313a4
+TEST_HEADER protocol=EIP1 samples=24000 bytes=48000 expected_crc=f7a313a4 actual_crc=f7a313a4 valid=yes
+AUDIO source=SERIAL rms=4310.38 pcm_min=-32468 pcm_max=26701 clipped=0/24000
+PROB source=SERIAL Bat_Den=0.984375
+PROB source=SERIAL Tap_Am=0.000000
+PROB source=SERIAL Tat_Den=0.000000
+PROB source=SERIAL Unknown=0.015625
+RESULT source=SERIAL best=Bat_Den probability=0.984375 second=Unknown margin=0.968750 dsp_ms=191 inference_ms=12 anomaly_ms=0
+TEST_END

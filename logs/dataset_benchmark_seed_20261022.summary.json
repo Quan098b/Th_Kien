@@ -1,0 +1,60 @@
+{
+  "rows": 20,
+  "confusion_matrix": {
+    "Bat_Den": {
+      "Bat_Den": 0,
+      "Tap_Am": 0,
+      "Tat_Den": 0,
+      "Unknown": 0
+    },
+    "Tap_Am": {
+      "Bat_Den": 0,
+      "Tap_Am": 0,
+      "Tat_Den": 0,
+      "Unknown": 0
+    },
+    "Tat_Den": {
+      "Bat_Den": 20,
+      "Tap_Am": 0,
+      "Tat_Den": 0,
+      "Unknown": 0
+    },
+    "Unknown": {
+      "Bat_Den": 0,
+      "Tap_Am": 0,
+      "Tat_Den": 0,
+      "Unknown": 0
+    }
+  },
+  "metrics": {
+    "Bat_Den": {
+      "support": 0,
+      "precision": 0.0,
+      "recall": null,
+      "f1": null
+    },
+    "Tap_Am": {
+      "support": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "Tat_Den": {
+      "support": 20,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Unknown": {
+      "support": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "tat_den_to_bat_den": 1.0,
+  "mean_dsp_ms": 194.0,
+  "mean_inference_ms": 11.4,
+  "rms_min": 75.88,
+  "rms_max": 937.39
+}

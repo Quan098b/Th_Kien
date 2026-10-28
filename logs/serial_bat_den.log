@@ -1,0 +1,9 @@
+HOST file=test_audio\bat_den.wav samples=24000 bytes=48000 crc=7ddf9018
+TEST_HEADER protocol=EIP1 samples=24000 bytes=48000 expected_crc=7ddf9018 actual_crc=7ddf9018 valid=yes
+AUDIO source=SERIAL rms=3674.82 pcm_min=-32688 pcm_max=24727 clipped=0/24000
+PROB source=SERIAL Bat_Den=0.984375
+PROB source=SERIAL Tap_Am=0.000000
+PROB source=SERIAL Tat_Den=0.000000
+PROB source=SERIAL Unknown=0.011719
+RESULT source=SERIAL best=Bat_Den probability=0.984375 second=Unknown margin=0.972656 dsp_ms=191 inference_ms=12 anomaly_ms=0
+TEST_END

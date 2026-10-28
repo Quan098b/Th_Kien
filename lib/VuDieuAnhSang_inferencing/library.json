@@ -1,0 +1,11 @@
+{
+  "name": "VuDieuAnhSang_inferencing",
+  "version": "1.0.4",
+  "build": {
+    "srcFilter": [
+      "+<*>",
+      "-<edge-impulse-sdk/porting/espressif/esp-dsp/modules/fft/fixed/>",
+      "-<edge-impulse-sdk/porting/espressif/esp-dsp/**/*.S>"
+    ]
+  }
+}

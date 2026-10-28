@@ -1,0 +1,197 @@
+AUDIO rms=35.91 pcm_min=-229 pcm_max=178 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=198 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=37.43 pcm_min=-289 pcm_max=276 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=33.46 pcm_min=-140 pcm_max=118 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=30.44 pcm_min=-122 pcm_max=137 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=30.57 pcm_min=-114 pcm_max=127 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=28.96 pcm_min=-104 pcm_max=100 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=32.53 pcm_min=-151 pcm_max=138 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=30.89 pcm_min=-114 pcm_max=129 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=31.37 pcm_min=-111 pcm_max=104 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=29.51 pcm_min=-105 pcm_max=118 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=32.44 pcm_min=-127 pcm_max=162 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=29.69 pcm_min=-146 pcm_max=116 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=32.53 pcm_min=-152 pcm_max=162 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=32.60 pcm_min=-153 pcm_max=136 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=29.50 pcm_min=-123 pcm_max=121 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=30.31 pcm_min=-164 pcm_max=125 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=30.17 pcm_min=-124 pcm_max=185 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=28.92 pcm_min=-107 pcm_max=126 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=28.90 pcm_min=-101 pcm_max=124 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=29.96 pcm_min=-112 pcm_max=116 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=30.85 pcm_min=-127 pcm_max=115 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=29.35 pcm_min=-103 pcm_max=103 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=29.90 pcm_min=-119 pcm_max=109 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=31.00 pcm_min=-108 pcm_max=114 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=29.96 pcm_min=-118 pcm_max=143 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=29.43 pcm_min=-106 pcm_max=113 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=31.62 pcm_min=-135 pcm_max=117 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=31.76 pcm_min=-121 pcm_max=111 clipped=0/24000
+PROB Bat_Den=0.496094
+PROB Tap_Am=0.000000
+PROB Tat_Den=0.496094
+PROB Unknown=0.007812
+RESULT best=Bat_Den probability=0.496094 dsp_ms=193 inference_ms=11 anomaly_ms=0
+MEM heap_free=315848 heap_min=310600 psram_total=8388608 psram_free=8313348
+AUDIO rms=29.12 pcm_min=-124 pcm_max=110 clipped=0/24000

@@ -1,0 +1,14 @@
+{
+  "project": "VuDieuAnhSang",
+  "project_id": 1144745,
+  "deployment": 4,
+  "model_sha256": "A9B5C89E841E9546A4048A0D11BA2C7EF1153C0168BEC5BCC55AF50A20F20E6D",
+  "firmware_sha256": "8311A92BE59B9F37A10EDD6E7C6DB216479C755BD9985BB146A9FF97B8BFCA35",
+  "labels": ["Bat_Den", "Tap_Am", "Tat_Den", "Unknown"],
+  "input": {"format": "PCM16 mono", "sample_rate_hz": 16000, "samples": 24000},
+  "mfe": {"implementation_version": 4, "frame_length_s": 0.02, "frame_stride_s": 0.01, "filters": 40, "fft_length": 256, "win_size": 101, "noise_floor_db": -52, "output_features": 5960},
+  "filter": {"min_rms": 20.0, "min_active_ratio": 0.02, "max_spectral_flatness": 0.15, "max_low_frequency_ratio": 0.80, "min_zero_crossing_rate": 0.01},
+  "measured_test": {"samples": 60, "far_before_filter": 0.60, "far_after_filter": 0.30, "frr_before_filter": 0.0333333333, "frr_after_filter": 0.0333333333},
+  "frozen": true
+}
+
